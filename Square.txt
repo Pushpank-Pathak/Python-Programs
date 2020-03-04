@@ -1,0 +1,16 @@
+import turtle
+# Square
+pp_turtle = turtle.Turtle()
+
+def square():
+  pp_turtle.forward(100)
+  pp_turtle.right(90)
+  pp_turtle.forward(100)
+  pp_turtle.right(90)
+  pp_turtle.forward(100)
+  pp_turtle.right(90)
+  pp_turtle.forward(100)
+
+square()
+pp_turtle.forward(100)
+square()
